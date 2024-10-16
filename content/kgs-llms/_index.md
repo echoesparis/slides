@@ -6,7 +6,6 @@ outputs = ["Reveal"]
 # Knowledge Graphs, LLMs, and RAG
 ## Synergizing for Advanced Information Retrieval
 
-Sébastien Perrault
 
 ---
 

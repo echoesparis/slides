@@ -3,33 +3,27 @@ title = "Slides"
 outputs = ["Reveal"]
 +++
 
-# Lectures
+# WIP
 
-* [Research](#/research)
-* [GIS for Design](#/gis)
-* [Computational Design](#/computational)
-* [Other](#/misc)
-
----
-
-{{< slide id="research" >}}
-
-* [<i class="ms ms-txt"></i> item]()
-
+* [Computational Design (CD)](#/cd)
+* [Gesospatial Modellign](#/gis)
+* [AI](#/ai)
 
 ---
 {{< slide id="gis" >}}
 
-* [<i class="ms ms-txt"></i> Geospatial Modeling]()
+* [<i class="ms ms-txt"></i> Geographic Information System (GIS)]()
+* [<i class="ms ms-txt"></i> Application Programming Interfaces (APIs)]()
 
 ---
 
-{{< slide id="computational" >}}
-* [<i class="ms ms-txt"></i> Generative Design]()
-* [<i class="ms ms-txt"></i> Computational Design]()
+{{< slide id="cd" >}}
+* [<i class="ms ms-txt"></i> Parametric Design (PD)]()
+* [<i class="ms ms-txt"></i> Computational Design (CD)]()
+* [<i class="ms ms-txt"></i> Generative Design (GD)]()
 
 ---
 
-{{< slide id="misc" >}}
+{{< slide id="ai" >}}
 
-* [<i class="ms ms-txt"></i> KGs and LLMs](/slides/kgs-llms/)
+* [<i class="ms ms-txt"></i> RAG, KGs and LLMs](/slides/kgs-llms/)
