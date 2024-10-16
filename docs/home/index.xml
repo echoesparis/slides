@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on Lectures</title>
-    <link>https://echoesparis.github.io/lectures/home/</link>
-    <description>Recent content in Homes on Lectures</description>
+    <title>Homes on Slides</title>
+    <link>https://echoesparis.github.io/slides/home/</link>
+    <description>Recent content in Homes on Slides</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://echoesparis.github.io/lectures/home/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://echoesparis.github.io/slides/home/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://echoesparis.github.io/lectures/home/body/</link>
+      <link>https://echoesparis.github.io/slides/home/body/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://echoesparis.github.io/lectures/home/body/</guid>
+      <guid>https://echoesparis.github.io/slides/home/body/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>https://echoesparis.github.io/lectures/home/conclusion/</link>
+      <link>https://echoesparis.github.io/slides/home/conclusion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://echoesparis.github.io/lectures/home/conclusion/</guid>
+      <guid>https://echoesparis.github.io/slides/home/conclusion/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,6 +1,6 @@
-baseURL = "https://echoesparis.github.io/lectures/"
+baseURL = "https://echoesparis.github.io/slides/"
 languageCode = "en-us"
-title = "Lectures"
+title = "Slides"
 theme = "reveal-hugo"
 publishDir = "docs"
 
@@ -13,7 +13,7 @@ mediaType = "text/html"
 isHTML = true
 
 [params]
-author = "Sébastien Perrault"
+author = "SP"
 email = "sp@echoes.paris"
 
 [params.reveal_hugo]
