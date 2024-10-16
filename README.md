@@ -1,6 +1,4 @@
-# Lectures
-
-Lectures by Sébastien Perrault
+# Presentations
 
 ---
 
