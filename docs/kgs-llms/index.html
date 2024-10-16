@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<title>Knowledge Graphs, LLMs, and RAG, Synergizing for Advanced Information Retrieval</title>
+
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="/lectures/reveal-js/css/reset.css">
+<link rel="stylesheet" href="/lectures/reveal-js/css/reveal.css"><link rel="stylesheet" href="/lectures/reveal-hugo/themes/static-custom-theme.css" id="theme"><link rel="stylesheet" href="/lectures/highlight-js/default.min.css">
+    
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+  
+
+    <section><h1 id="knowledge-graphs-llms-and-rag">Knowledge Graphs, LLMs, and RAG</h1>
+<h2 id="synergizing-for-advanced-information-retrieval">Synergizing for Advanced Information Retrieval</h2>
+<p>Sébastien Perrault</p>
+</section><section>
+<h2 id="what-are-knowledge-graphs">What are Knowledge Graphs?</h2>
+<ul>
+<li>Structured representation of <a href="10">knowledge</a></li>
+<li>Entities connected by relationships</li>
+<li>Powerful tool for organizing information</li>
+</ul>
+<img src="knowledge-graph-example.jpg" width="900">
+</section><section>
+<h2 id="components-of-knowledge-graphs">Components of Knowledge Graphs</h2>
+<ul>
+<li>Nodes (entities)</li>
+<li>Edges (relationships)</li>
+<li>Properties (attributes)</li>
+</ul>
+<img src="kg-components.jpg" width="900">
+</section><section>
+<h2 id="benefits-of-knowledge-graphs">Benefits of Knowledge Graphs</h2>
+<ul>
+<li>Enhanced data integration</li>
+<li>Improved search and discovery</li>
+<li>Support for <a href="10">AI</a> and <a href="10">machine learning</a></li>
+</ul>
+<img src="kg-benefits.jpg" width="900">
+</section><section>
+<h2 id="what-are-large-language-models">What are Large Language Models?</h2>
+<ul>
+<li><a href="10">AI</a> models trained on vast amounts of text data</li>
+<li>Capable of understanding and generating human-like text</li>
+<li>Examples: GPT-3, BERT, T5</li>
+</ul>
+<img src="llm-architecture.jpg" width="900">
+</section><section>
+<h2 id="key-features-of-llms">Key Features of LLMs</h2>
+<ul>
+<li>Natural language understanding</li>
+<li>Text generation</li>
+<li>Transfer learning capabilities</li>
+</ul>
+<img src="llm-features.jpg" width="900">
+</section><section>
+<h2 id="applications-of-llms">Applications of LLMs</h2>
+<ul>
+<li>Chatbots and virtual assistants</li>
+<li>Content creation</li>
+<li>Language translation</li>
+</ul>
+<img src="llm-applications.jpg" width="900">
+</section><section>
+<h2 id="synergy-between-kgs-and-llms">Synergy between KGs and LLMs</h2>
+<ul>
+<li>KGs provide structured <a href="10">knowledge</a></li>
+<li>LLMs offer natural language interface</li>
+<li>Combined power for intelligent systems</li>
+</ul>
+<img src="kg-llm-synergy.jpg" width="900">
+</section><section>
+<h2 id="kgs-enhancing-llms">KGs Enhancing LLMs</h2>
+<ul>
+<li>Grounding LLMs in factual <a href="10">knowledge</a></li>
+<li>Reducing hallucinations</li>
+<li>Improving reasoning capabilities</li>
+</ul>
+<img src="kg-enhancing-llm.jpg" width="900">
+</section><section>
+<h2 id="llms-augmenting-kgs">LLMs Augmenting KGs</h2>
+<ul>
+<li>Automated <a href="10">knowledge</a> extraction</li>
+<li>Natural language querying of KGs</li>
+<li><a href="10">Knowledge graph</a> completion</li>
+</ul>
+<img src="llm-augmenting-kg.jpg" width="900">
+</section><section>
+<h2 id="challenges-and-future-directions">Challenges and Future Directions</h2>
+<ul>
+<li>Scalability of KGs</li>
+<li>Ethical considerations in LLMs</li>
+<li>Integration of multimodal data</li>
+</ul>
+<img src="future-challenges.jpg" width="900">
+</section><section>
+<h2 id="conclusion">Conclusion</h2>
+<ul>
+<li>KGs and LLMs are powerful <a href="10">AI</a> technologies</li>
+<li>Their combination offers exciting possibilities</li>
+<li>Future of AI-driven <a href="10">knowledge</a> systems</li>
+</ul>
+<img src="kg-llm-future.jpg" width="900">
+</section><section>
+<h2 id="thank-you">Thank You</h2>
+<p>Questions?</p>
+<img src="thank-you.jpg" width="900">
+</section>
+
+  
+
+
+</div>
+      
+
+    </div>
+<script type="text/javascript" src=/lectures/reveal-hugo/object-assign.js></script>
+
+<a href="/lectures/reveal-js/css/print/" id="print-location" style="display: none;"></a>
+<script type="text/javascript">
+  var printLocationElement = document.getElementById('print-location');
+  var link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = printLocationElement.href + (window.location.search.match(/print-pdf/gi) ? 'pdf.css' : 'paper.css');
+  document.getElementsByTagName('head')[0].appendChild(link);
+</script>
+
+<script type="application/json" id="reveal-hugo-site-params">{"custom_theme":"reveal-hugo/themes/static-custom-theme.css"}</script>
+<script type="application/json" id="reveal-hugo-page-params">null</script>
+
+<script src="/lectures/reveal-js/js/reveal.js"></script>
+
+<script type="text/javascript">
+  
+  
+  function camelize(map) {
+    if (map) {
+      Object.keys(map).forEach(function(k) {
+        newK = k.replace(/(\_\w)/g, function(m) { return m[1].toUpperCase() });
+        if (newK != k) {
+          map[newK] = map[k];
+          delete map[k];
+        }
+      });
+    }
+    return map;
+  }
+  
+  var revealHugoDefaults = { center: true, controls: true, history: true, progress: true, transition: "slide" };
+  var revealHugoSiteParams = JSON.parse(document.getElementById('reveal-hugo-site-params').innerHTML);
+  var revealHugoPageParams = JSON.parse(document.getElementById('reveal-hugo-page-params').innerHTML);
+  
+  var options = Object.assign({},
+    camelize(revealHugoDefaults),
+    camelize(revealHugoSiteParams),
+    camelize(revealHugoPageParams));
+  Reveal.initialize(options);
+</script>
+
+
+  
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/markdown/marked.js"></script>
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/markdown/markdown.js"></script>
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/highlight/highlight.js"></script>
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/zoom-js/zoom.js"></script>
+  
+  
+  <script type="text/javascript" src="/lectures/reveal-js/plugin/notes/notes.js"></script>
+
+
+
+    <script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
+    
+  </body>
+</html>
