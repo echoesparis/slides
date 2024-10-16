@@ -32,4 +32,4 @@ outputs = ["Reveal"]
 
 {{< slide id="misc" >}}
 
-* [<i class="ms ms-txt"></i> KGs and LLMs](/lectures/kgs-llms/)
+* [<i class="ms ms-txt"></i> KGs and LLMs](/slides/kgs-llms/)
