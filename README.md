@@ -1,10 +1,6 @@
-# lWIP repo
+# About
 
-This repository contains the slides for various presentations.
-
-## GitHub Pages Site
-
-You can view the slides online at [GitHub Pages](https://echoesparis.github.io/presentation/).
+This repository contains slides for various presentations.
 
 ---
 
